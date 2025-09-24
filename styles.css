@@ -99,4 +99,12 @@ body {
   .profile-pic {
     margin: 0 auto 20px;
   }
+
+  .profile-pic::before {
+    content: "Profile-picture";
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #a8d0ff;
+  }
 }
