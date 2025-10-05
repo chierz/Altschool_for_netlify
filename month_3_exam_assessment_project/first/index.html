@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark">
+    <!-- default theme -->
+    <div class="container">
+      <div>
+        <button id="toggle-theme">Light/Dark</button>
+      </div>
+      <h2 id="status">CLEAR</h2>
+      <div id="display">00:00:00.000</div>
+      <!--time elapsed-->
+
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+        <button id="lap">Lap</button>
+      </div>
+      <ul id="laps"></ul>
+    </div>
+    <div>
+      <p id="copyright">copyright@bonaventure_eze</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
